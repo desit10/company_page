@@ -1,0 +1,222 @@
+@font-face {
+  font-family: MyriadPro;
+  src: url(../webfonts/MyriadPro-Regular.woff);
+}
+@font-face {
+  font-family: Svarna;
+  src: url(../webfonts/SVARNA-Regular-BF64888b08a575b.woff);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.box {
+  display: grid;
+}
+.box__head {
+  background-color: #c21f10;
+}
+.head {
+  width: 1010px;
+  height: 800px;
+  margin: 0 auto;
+}
+.nav {
+  padding-top: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.elements {
+  text-align: center;
+}
+.nav__element {
+  font-size: 18px;
+  font-family: MyriadPro, sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+}
+.nav__element:hover {
+  background-color: #130e27;
+  border-radius: 5px;
+}
+.words {
+  padding-top: 150px;
+}
+.head__word--black {
+  width: 485px;
+  height: 80px;
+  font-size: 90px;
+  font-family: MyriadPro, sans-serif;
+  font-weight: bold;
+  color: rgb(19, 14, 39);
+}
+.head__word--white {
+  width: 485px;
+  height: 80px;
+  font-size: 90px;
+  font-family: MyriadPro, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+.text {
+  width: 485px;
+  padding-top: 50px;
+  font-size: 20px;
+  font-family: MyriadPro, sans-serif;
+  color: rgb(255, 255, 255);
+}
+.box__services {
+  background-color: white;
+}
+.service {
+  width: 1010px;
+  height: 600px;
+  margin: 0 auto;
+}
+.title__service {
+  padding-top: 45px;
+  display: flex;
+  font-size: 50px;
+  font-family: MyriadPro, sans-serif;
+}
+.first__word__title {
+  color: rgb(198, 35, 20);
+  padding-right: 10px;
+}
+.second__word__title {
+  padding-left: 10px;
+}
+.items {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+.service__item {
+  text-align: center;
+}
+.service__item > .text {
+  width: 200px;
+  font-size: 20px;
+  font-family: MyriadPro, sans-serif;
+  color: rgb(22, 22, 22);
+  text-align: center;
+}
+.fa-regular {
+  font-size: 150px;
+  color: rgb(22, 22, 22);
+}
+.box__info {
+  background-color: #130e27;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1010px;
+  height: 120px;
+  margin: 0 auto;
+}
+.info > .text {
+  padding: 0;
+  width: 600px;
+  font-size: 20px;
+  font-family: MyriadPro, sans-serif;
+  color: white;
+}
+.btn {
+  width: 270px;
+  height: 60px;
+  background-color: #c62314;
+  font-size: 22px;
+  font-family: MyriadPro, sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border: 0;
+  border-radius: 5px;
+}
+.box__pricing {
+  background-color: #efefef;
+}
+.pricing {
+  width: 1010px;
+  height: 610px;
+  margin: 0 auto;
+  text-align: center;
+}
+.title__pricing {
+  padding-top: 65px;
+  font-size: 50px;
+  font-family: MyriadPro, sans-serif;
+  color: rgb(19, 14, 39);
+  font-weight: bold;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+.pricing__card {
+  width: 320px;
+  height: 390px;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+}
+.pricing__card > .btn {
+  margin-top: 30px;
+  background-color: #130e27;
+  font-weight: bold;
+  border: 0;
+}
+.pricing__card > .btn:hover {
+  background-color: #c62314;
+}
+.class {
+  padding-top: 20px;
+  font-size: 22px;
+  font-family: MyriadPro, sans-serif;
+  color: rgb(22, 22, 22);
+}
+.price {
+  padding-top: 30px;
+  font-size: 60px;
+  font-family: MyriadPro, sans-serif;
+  color: rgb(198, 35, 20);
+  font-weight: bold;
+}
+.services {
+  padding-top: 20px;
+  display: grid;
+  font-size: 20px;
+  font-family: MyriadPro, sans-serif;
+  color: rgb(22, 22, 22);
+}
+.last__box__info {
+  background-color: #130e27;
+}
+.last__box__info > .info {
+  height: 190px;
+  margin: 0 auto;
+}
+.last__box__info > .info > .text {
+  display: flex;
+}
+p {
+  padding-left: 3px;
+  color: #c62314;
+}
+.nav > .logo {
+  font-family: Svarna;
+  font-size: 75px;
+  color: white;
+}
+
+.logo {
+  font-family: Svarna;
+  font-size: 50px;
+  color: #c62314;
+}
